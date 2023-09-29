@@ -18,7 +18,7 @@ async def get_home_page(request: Request):
     })
 
 
-@app.post('/reate_note')
+@app.post('/create_note')
 async def send_notes(note_data: Note):
     note_id = get_note_id(text=note_data.secret)
     notes_list.all_notes.append(note_id)
