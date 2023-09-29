@@ -52,3 +52,4 @@ async def get_result_note(request: Request, note_text: str):
         'note_text': note_text
     }
     )
+
