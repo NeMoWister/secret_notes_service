@@ -1,19 +1,17 @@
-## Описание проекта
-Этот проект представляет собой простой сервис для создания и обмена исчезающими записками. Он был создан в рамках тестового задания и использует Python, HTML и FastAPI.
 
-## Установка и запуск
-Чтобы установить и запустить проект, выполните следующие шаги:
+## Project Description
+This project is a simple service for creating and sharing disappearing notes. Stack: Python 3, FastApi.
 
-### Клонируйте репозиторий:
+### Installation and Running
+To install and run the project, follow these steps:
 
-`git clone https://github.com/yourusername/your-project.git`
+Clone the repository:
+git clone https://github.com/yourusername/your-project.git
 
-### Установите зависимости:
+Install dependencies:
+pip install -r requirements.txt
 
-`pip install -r requirements.txt`
-### Запустите сервер:
+Start the server:
+uvicorn main:app --reload
 
-`uvicorn main:app --reload`
-
-Откройте веб-браузер и перейдите по адресу http://localhost:8000.
-
+Open a web browser and go to http://localhost:8000.
