@@ -6,7 +6,7 @@ This project is a simple service for creating and sharing disappearing notes. St
 To install and run the project, follow these steps:
 
 Clone the repository:
-git clone https://github.com/yourusername/your-project.git
+git clone https://github.com/NeMoWister/secret_notes_service.git
 
 Install dependencies:
 pip install -r requirements.txt
